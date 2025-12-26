@@ -1,3 +1,5 @@
 #!/bin/bash
 set -e
-go run cmd/server/main.go
+
+echo "Запуск приложения."
+go run main.go
