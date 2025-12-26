@@ -2,6 +2,8 @@
 #!/bin/bash
 set -e
 
+export PGPASSWORD="val1dat0r"
+
 go mod tidy
 
 psql -h localhost -U validator -d project-sem-1 <<EOF
